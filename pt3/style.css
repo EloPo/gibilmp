@@ -1,0 +1,40 @@
+@charset "UTF-8";
+h1 {
+position: absolute;
+width: 601px;
+height: 216px;
+left: 736px;
+top: 118px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 72px;
+/* or 112% */
+
+display: flex;
+align-items: center;
+
+color: #F26463;
+}
+p {
+    position: absolute;
+width: 428px;
+height: 160px;
+left: 736px;
+top: 358px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+display: flex;
+align-items: center;
+
+color: rgba(21, 21, 21, 0.5);
+
+}
