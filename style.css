@@ -1,57 +1,65 @@
 @charset "UTF-8";
-h1 {
-    position: absolute;
-width: 507px;
-height: 216px;
-left: 160px;
-top: 118px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 72px;
-/* or 112% */
+* {
+    margin: 0;
+  }
+  
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 1200px) {
+    section {
+      max-width: 1000px;
+    }
+  }
 
-display: flex;
-align-items: center;
-
-color: #F26463;
-}
-p {
-    position: absolute;
-width: 428px;
-height: 160px;
-left: 160px;
-top: 358px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 32px;
-/* or 160% */
-
-display: flex;
-align-items: center;
-
-color: rgba(21, 21, 21, 0.5);
-
-}
-picture {
-    position: absolute;
-width: 442px;
-height: 625px;
-left: 876.81px;
-top: 63px;
-
-background: url(img1.png)
-}
-body {
-    background: linear-gradient(to right, #FFD8F4 0%, rgba(243, 241, 243, 0.5) 100.85%); 
-    background-attachment: fixed;
+  h1 {
+    size: 10;
+    width: 80%;
+    height: auto;
+    left: 2%;
+    top: 10vh; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10vw;
+    line-height: 1.0;
+    text-align: left;
+    color: #F26463;
+    margin: 0.5em 0.5em 0.5em 1.5em;
+  }
+  
+  p {
+    width: 80%;
+    height: auto;
+    margin: 1.25em ;
+    padding: 0;  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6vw;
+    line-height: 1.2em;
+    text-align: left;
+    color: rgba(21, 21, 21, 0.5); 
+    margin: 1em 1em 1em 2.5em
+       
+  }
+  
+  picture {
     
-}
-h2 {
-    padding: 10px 8px;
-}
+    max-width: 50%;
+    height: auto;
+    background: url(MariaDaPenha-G.png);
+    position:static ;
+    margin: 0em 0em 0em 3em;
+
+  }
+  
+  body {
+    background: #FFD8F4;
+  }
+  
